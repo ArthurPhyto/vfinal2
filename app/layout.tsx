@@ -14,7 +14,10 @@ export const metadata: Metadata = {
     canonical: process.env.NEXT_PUBLIC_SITE_URL
   },
   verification: {
-    google: '4-5C23ti3KbFzOsKJu6eEd8y8pOALOIuHgcsTEj9Rm0'
+    google: '4-5C23ti3KbFzOsKJu6eEd8y8pOALOIuHgcsTEj9Rm0',
+    other: {
+      'msvalidate.01': '116B8CD281360A0C9D7D45E1C5357CBB'
+    }
   }
 };
 
